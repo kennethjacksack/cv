@@ -1,0 +1,201 @@
+{
+    "name": "Kenneth M. Jacksack",
+    "title": "Economics Graduate | 5 minute read",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum",
+    "education": [
+        {
+            "description": [
+                "Bachelor of Science - BS, Economics (GPA: 3.64/4)",
+                "Honors: Dean’s List (2022 – 2024)"
+            ],
+            "title": "Northern Illinois University",
+            "url": "https://www.niu.edu/spotlight/student/jacksack.shtml",
+            "location": "DeKalb, IL",
+            "date": "2022 - 2024"
+        },
+        {
+            "description": [
+                "Associate of Arts - AA, English (GPA: 3.959/4)",
+                "Honors: Dean’s List (2019 – 2022)"
+            ],
+            "title": "College of Lake County",
+            "image": "pictures/clc.png",
+            "location": "Grayslake, IL",
+            "date": "2019 - 2022"
+        }
+    ],
+    "projects": [
+        {
+            "title": "Reimagining Electronic Payment Systems for College Students",
+            "description": [
+                "Project manager for Capital One & Braven. Led a team of 6 to create an innovative payment solution for college students",
+                "Utilized the design thinking process to conduct empathy-based interviews, define solutions, ideate, prototype, and test the product"
+            ],
+            "date": "2024"
+        },
+        {
+            "title": "Digital Maturity and Its Impact on Restaurant Performance",
+            "description": "Working capstone research paper on the economics of digital maturity within the restaurant industry. End product earned me an invitation to present at the annual ECONference",
+            "date": "2024"
+        },
+        {
+            "title": "Huskie Closet Promotion",
+            "description": "Project manager for promoting and developing the Huskie Closet, a non-profit that provides clothing to college students. Utilized the design thinking process",
+            "date": "2024",
+            "image": "pictures/closet.jpg"
+        }
+    ],
+    "awards": [
+        {
+            "title": "Dean's Award",
+            "description": "Established in 1970, this prestigious award recognizes seniors who have made outstanding contributions to their major departments within the college. Awarded to one graduating senior per year",
+            "date": "2024",
+            "image": "pictures/dean's.jpg"
+        }
+    ],
+    "leadership": [
+        {
+            "title": "The Braven Accelerator",
+            "description": [
+                "Enhanced leadership and teamwork skills through a comprehensive 14-week professional development course",
+                "Designed a career roadmap by outlining 3 short-term goals and identifying resources to achieve them"
+            ],
+            "date": "2024",
+            "image": "pictures/braven.jpg"
+        },
+        {
+            "title": "Economic Department Ambassador",
+            "image": "pictures/admission.jpg",
+            "description": [
+                "Invited by the Associate Dean to represent the Economics Department at Admitted Student Days",
+                "Led small group discussions and activities, employing data-driven insights to clarify academic pathways and address specific student interests"
+            ],
+            "date": "2024"
+        },
+        {
+            "title": "Economic Student Association",
+            "description": [
+                "Overhauled regular meetings and restructured the association, leading to improved organizational efficiency",
+                "Programmed the ‘2024 ECONference’, uniting speakers, students, and faculty to discuss economics",
+                "Presented and conducted group research 'The Federal Funds Rate, Unemployment, and Uber'"
+            ],
+            "date": "2023 - 2024",
+            "image": "pictures/econ.jpg"
+        },
+        {
+            "title": "Circus Club",
+            "description": [
+                "Co-founded and established a club dedicated to circus skills and activities. Authored the club's constitution, organized meetings, and structured the overall program",
+                "Validated the club's status as an official entity with Northern Illinois University within the second year of operation"
+            ],
+            "date": "2022 - 2024",
+            "url": "https://www.instagram.com/niucircusclub/",
+            "image": "pictures/circus.png"
+        }
+    ],
+    "experience": [
+        {
+            "title": "Associate at Northern Illinois University",
+            "description": [
+                "Trained 5+ employees in cash register operation, dining room upkeep, and customer service",
+                "Enhanced dining experiences for 100+ customers/hour with professional service and precise transactions",
+                "Applied economic concepts from capstone paper to provide insights into NIU dining performance"
+            ],
+            "date": "2022 - 2024",
+            "location": "DeKalb, IL",
+            "image": "pictures/stevo.png"
+        },
+        {
+            "title": "Festival Assistant at Luxembourg American Cultural Society",
+            "description": [
+                "Coordinated volunteers, optimizing festival support through meticulous supervision and management",
+                "Assisted in organizing activities, enhancing attendee engagement through proactive planning and changes"
+            ],
+            "date": "Summer 2023",
+            "location": "Belgium, WI"
+        },
+        {
+            "title": "Receptionist at Botto Gilbert Lancaster, PC",
+            "description": [
+                "Ensured financial accuracy and compliance by handling transactions, adhering to company regulations",
+                "Coordinated communication and payroll by answering calls, entering data, and applying services knowledge",
+                "Boosted social media presence by designing and posting infographics, leading social media efforts"
+            ],
+            "date": "Winter 2023",
+            "location": "Crystal Lake, IL"
+        }
+    ],
+    "volunteering": [
+        {
+            "title": "Salvation Army",
+            "description": [
+                "Assisted the Salvation Army in welcoming individuals in need and distributing food to support the hungry"
+            ],
+            "date": "2024",
+            "location": "DeKalb, IL"
+        },
+        {
+            "title": "Piano Teacher",
+            "description": [
+                "Drew upon 10 years of classical piano training to design and teach a beginner piano course, providing personalized weekly lessons. Composed original beginner piano pieces and technique-focused scores to enhance learning, foster musical creativity, and instill best practices in piano technique"
+            ],
+            "date": "2024",
+            "location": "DeKalb, IL"
+        }
+    ],
+    "side_projects": [
+        {
+            "title": "Music Portfolio",
+            "description": "Developed a website in HTML, CSS, and JS for showcasing original compositions and scores",
+            "date": "2024",
+            "url": "https://kennethjacksack.github.io/ken-music/index.html"
+        }
+    ],
+    "skills": [
+        {
+            "title": "Data Analysis",
+            "description": [
+                "Proficient in Excel functions and regression analysis, utilized in various research projects. Experienced in data visualization and basic econometrics in RStudio, skills developed during ECON 492. Also skilled in audio and MIDI data visualization using JavaScript, TouchDesigner, and various programming languages"
+            ],
+            "date": "2020 - Present"
+        },
+        {
+            "title": "Project Management",
+            "image": "pictures/mgt.jpg",
+            "description": [
+                "Successfully managed diverse projects across various industries, leveraging tools like Slack for seamless communication, task management, and team coordination. Implemented file organization systems and best practices to streamline workflows, ensuring project deliverables were completed efficiently. Optimized team productivity by strategically assigning tasks based on individual strengths and priorities, leading to enhanced time management and project outcomes"
+            ],
+            "date": "2019 - Present"
+        },
+        {
+            "title": "Communication and Presentation",
+            "image": "pictures/comms.png",
+            "description": [
+                "Developed strong communication skills through presenting research findings, leading team meetings, and conveying complex concepts to both technical and non-technical audiences. Successfully presented at conferences and facilitated workshops, utilizing data-driven insights and visual aids to enhance understanding and engagement"
+            ],
+            "date": "2019 - Present"
+        }
+    ],
+    "endorsed_by": [
+        {
+            "title": "Michael Sloat - Manager at Northern Illinois University",
+            "description": [
+                "Kenneth Jacksack has worked for our team at NIU. He’s a valued employee who takes a great amount of pride in his work. He’s always willing to help and doesn’t hesitate to assist others when needed, without being asked",
+                "We will miss his dedication and commitment to always doing a complete job when he was scheduled. I’m sure Kenneth will be successful in his future career as he always has pride and commitment in his work"
+            ],
+            "date": "2024"
+        },
+        {
+            "title": "Recommendations Available Upon Request",
+            "description": [
+                "Additional references and recommendations from previous employers, colleagues and professors are available upon request"
+            ],
+            "date": "----"
+        }
+    ],
+    "contact": {
+        "email": "kjacksack@gmail.com",
+        "phone": "(847) 707-6364",
+        "linkedin": "https://www.linkedin.com/in/kenneth-jacksack"
+    }
+}

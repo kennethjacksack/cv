@@ -1,0 +1,372 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Apply Helvetica Neue */
+    background: #f9f9f9;
+    color: #333;
+    line-height: 1.4;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Header styles */
+header {
+    background: #ffffff;
+    color: #333;
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Apply Helvetica Neue */
+    opacity: 0; /* Start as hidden */
+    animation: fadeIn 0.6s ease-out forwards; /* Apply animation */
+}
+
+header > div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem; /* Adjusted padding */
+}
+
+header img {
+    border-radius: 50%;
+    width: 100px; /* Slightly smaller size for the profile picture */
+    height: 100px; /* Slightly smaller size for the profile picture */
+    object-fit: cover;
+}
+
+header div > div {
+    text-align: left;
+}
+
+header h1, header p {
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Apply Helvetica Neue */
+}
+
+header h1 {
+    font-size: 1rem; /* Reduced title text size */
+    font-weight: 300; /* Lighter weight for title */
+}
+
+header p {
+    font-size: 0.75rem; /* Reduced subtitle text size */
+    font-weight: 200; /* Lighter weight for subtitle */
+}
+
+/* Animation keyframes */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Main content styles */
+main {
+    padding: 1rem 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Apply Helvetica Neue */
+    opacity: 0; /* Start as hidden */
+    animation: fadeIn 0.6s ease-out forwards; /* Apply animation */
+}
+
+section {
+    margin-bottom: 5rem; /* Increased space between sections */
+}
+
+h2 {
+    font-size: 0.875rem; /* Reduced header size */
+    font-weight: 300; /* Lighter weight for headers */
+    margin-bottom: 1.5rem; /* Added space below section title */
+}
+
+/* Ensure all lists have consistent styling */
+ul {
+    list-style-type: none; /* Remove default bullets */
+    padding: 0;
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Apply Helvetica Neue */
+}
+
+ul li {
+    font-size: 0.875rem; /* Reduced size for all items */
+    color: #555; /* Consistent color */
+    font-weight: 300; /* Consistent weight */
+    margin-bottom: 1rem; /* Increased space between items */
+}
+
+/* Flex container to align items properly */
+.item-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Apply Helvetica Neue */
+    margin-bottom: 3rem; /* Increased space between subsections */
+    position: relative; /* Position relative for floating image positioning */
+}
+
+.item-header {
+    display: flex;
+    justify-content: space-between; /* Align date to the left and title/location to the right */
+    align-items: center; /* Vertically center align */
+    margin-bottom: 0.5rem; /* Reduced space between header and description */
+}
+
+.date {
+    font-size: 0.875rem; /* Reduced font size for dates */
+    color: #777;
+    font-weight: 200; /* Lighter weight for dates */
+    flex-basis: 130px; /* Adjusted width for date */
+    text-align: left;
+}
+
+.title {
+    font-size: 0.875rem; /* Reduced font size for titles */
+    color: #333;
+    font-weight: 300; /* Lighter weight for titles */
+    margin-right: 1rem; /* Increased space between title and location */
+}
+
+.location {
+    font-size: 0.875rem; /* Reduced font size for locations */
+    color: #777;
+    font-weight: 200; /* Lighter weight for locations */
+    margin-left: auto; /* Push location to the right */
+}
+
+.description {
+    font-size: 0.875rem; /* Reduced size for descriptions */
+    color: #555;
+    font-weight: 200; /* Lighter weight for descriptions */
+    margin-left: 130px; /* Adjusted alignment with title/location */
+}
+
+/* Ensure bullet points align with description */
+.item-container ul {
+    margin-left: 130px; /* Align bullet points with description */
+    padding-left: 0; /* Remove default padding */
+}
+
+.item-container ul li {
+    margin-bottom: 1rem; /* Increased space between bullet points */
+}
+
+/* Remove bullet points styling */
+ul.experience-bullets li,
+ul.leadership-bullets li,
+ul.project-info li,
+ul.award-info li {
+    margin-bottom: 1rem; /* Increased space between bullet points */
+    position: relative;
+    padding-left: 0; /* Ensure no extra padding */
+}
+
+ul.experience-bullets li::before,
+ul.leadership-bullets li::before,
+ul.project-info li::before,
+ul.award-info li::before {
+    content: ''; /* No content for these pseudo-elements */
+    font-size: 0; /* No size for the bullets */
+    color: transparent; /* Make bullet invisible */
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: none;
+}
+
+
+/* Footer styles */
+footer {
+    background: #ffffff;
+    color: #333;
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Apply Helvetica Neue */
+}
+
+
+
+/* Navigation styles */
+nav {
+    position: fixed;
+    top: 0;
+    left: -90px; /* Start off-screen */
+    width: 90px; /* Adjusted width for navigation */
+    height: 100%;
+    background: #f0f0f000;
+    padding: 1rem;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Apply Helvetica Neue */
+    animation: slideIn 0.6s ease-out 0.5s forwards; /* Apply animation with delay */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+nav ul li {
+    position: relative;
+    margin-bottom: 1rem; /* Increased space between navigation items */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: transparent;
+    font-size: 0;
+    font-weight: 300;
+    display: block;
+    padding: 0.5rem;
+    border-radius: 50%;
+    width: 10px; /* Reduced size for navigation dots */
+    height: 10px; /* Reduced size for navigation dots */
+    background: #cfcfcf9d;
+    transition: background 0.3s, transform 0.3s;
+}
+
+nav ul li a:hover {
+    background: #0057b3b6;
+    transform: scale(1.2);
+}
+
+nav ul li a::after {
+    content: attr(data-title);
+    position: absolute;
+    top: -1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #333;
+    color: #fff;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    font-size: 0.7rem; /* Reduced font size for tooltip */
+    transition: opacity 0.3s, visibility 0.3s;
+}
+
+nav ul li a:hover::after {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Animation keyframes */
+@keyframes slideIn {
+    from {
+        left: -90px; /* Start off-screen */
+    }
+    to {
+        left: 0; /* End at the final position */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* General link styling */
+a {
+    position: relative;
+    text-decoration: none;
+    color: #333; /* Darkest shade for text color */
+    transition: color 0.3s ease; /* Smooth transition for color */
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.2); /* Subtle dotted underline as a clue */
+    padding-bottom: 2px; /* Adds a bit of space for the underline */
+}
+
+/* Add hover effect */
+a::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1); /* Adjust highlight color */
+    transition: height 0.3s ease;
+    z-index: -1; /* Make sure the highlight stays behind the text */
+}
+
+/* Hover effect - expand the highlight */
+a:hover::before {
+    height: 100%; /* Animate the height to fill the text */
+}
+
+/* Change link color on hover for emphasis */
+a:hover {
+    color: #000; /* Darker color on hover */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4); /* Solid underline on hover */
+}
+
+/* Contact section styling */
+#contact {
+    text-align: center; /* Center the contact section content */
+    margin-top: 3rem; /* Add some space above the contact section */
+}
+
+#contact h2 {
+    font-size: 1rem; /* Slightly larger font size for contact header */
+    font-weight: 400; /* Slightly heavier weight for emphasis */
+    margin-bottom: 1rem; /* Space below the header */
+}
+
+#contact-info {
+    font-size: 0.875rem; /* Same font size as other sections */
+    color: #333; /* Dark color for contact info */
+    font-weight: 300; /* Lighter weight for contact details */
+    line-height: 1.6; /* Improved readability */
+}
+
+#contact-info a {
+    color: #0057b3; /* Color for links */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: 400; /* Slightly heavier weight for links */
+}
+
+#contact-info a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* Make sure contact section aligns with overall design */
+#contact p {
+    margin-bottom: 0.5rem; /* Space between contact details */
+}
+
+/* Floating image styles */
+.hover-image {
+    position: absolute; /* Fix position relative to the viewport */
+    right: -65%; /* Adjust as needed */
+    top: 0px; /* Adjust to control the vertical offset */
+    width: 350px; /* Adjust size as needed */
+    height: auto;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s, visibility 2.5s;
+    z-index: 1000; /* Ensure it stays on top of other content */
+}
+
+/* Show the floating image on hover */
+.item-container:hover .hover-image {
+    opacity: 1;
+    visibility: visible;
+}
