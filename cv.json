@@ -6,7 +6,8 @@
         {
             "description": [
                 "Bachelor of Science - BS, Economics (GPA: 3.64/4)",
-                "Honors: Dean’s List (2022 – 2024)"
+                "Honors: Dean’s List (2022 – 2024)",
+                "Club participation: Model Illinois Government, Philosophy Club, Fencing, Innovation Club"
             ],
             "title": "Northern Illinois University",
             "url": "https://www.niu.edu/spotlight/student/jacksack.shtml",
@@ -27,21 +28,29 @@
     "projects": [
         {
             "title": "Reimagining Electronic Payment Systems for College Students",
+            "image":"pictures/cap.jpg",
             "description": [
-                "Project manager for Capital One & Braven. Led a team of 6 to create an innovative payment solution for college students",
-                "Utilized the design thinking process to conduct empathy-based interviews, define solutions, ideate, prototype, and test the product"
+                "Led a cross-functional team of six to develop an innovative electronic payment solution for Capital One, tailored to the needs of college students",
+                "Applied the design thinking process, conducting empathy-based interviews to deeply understand student challenges, defining targeted solutions, and leading the ideation, prototyping, and testing phases",
+                "Ensured seamless collaboration between team members and stakeholders, driving the project to completion while maintaining focus on user-centered design and impactful outcomes"
             ],
             "date": "2024"
         },
         {
             "title": "Digital Maturity and Its Impact on Restaurant Performance",
+            "image": "pictures/capstone.png",
             "description": "Working capstone research paper on the economics of digital maturity within the restaurant industry. End product earned me an invitation to present at the annual ECONference",
             "date": "2024"
         },
         {
             "title": "Huskie Closet Promotion",
-            "description": "Project manager for promoting and developing the Huskie Closet, a non-profit that provides clothing to college students. Utilized the design thinking process and event budgeting strategies",
-            "date": "2024",
+            "description": [
+                "Led the promotion and development of the Huskie Closet, a non-profit initiative providing essential clothing to college students in need",
+                "Applied the design thinking process to create innovative solutions for increasing student engagement and awareness of the program",
+                "Managed event budgeting and resource allocation to maximize impact, ensuring the effective use of funds while programming promotional campaigns and events"
+            
+            ],
+                "date": "2024",
             "image": "pictures/closet2.jpg"
         }
     ],
@@ -99,7 +108,7 @@
             "description": [
                 "Trained 5+ employees in cash register operation, dining room upkeep, and customer service",
                 "Enhanced dining experiences for 100+ customers/hour with professional service and precise transactions",
-                "Applied economic concepts from capstone paper to provide insights into NIU dining performance"
+                "Applied economic concepts from my capstone paper to provide insights into NIU dining performance"
             ],
             "date": "2022 - 2024",
             "location": "DeKalb, IL",
@@ -108,8 +117,8 @@
         {
             "title": "Festival Assistant at Luxembourg American Cultural Society",
             "description": [
-                "Coordinated volunteers, optimizing festival support through meticulous supervision and management",
-                "Assisted in organizing activities, enhancing attendee engagement through proactive planning and changes"
+                "Coordinated and managed volunteers, optimizing festival operations through effective supervision and resource allocation",
+                "Assisted in planning and organizing activities, driving attendee engagement by implementing creative and proactive strategies to enhance the overall festival experience"
             ],
             "date": "Summer 2023",
             "location": "Belgium, WI"
@@ -137,7 +146,7 @@
         {
             "title": "Piano Teacher",
             "description": [
-                "Drew upon 10 years of classical piano training to design and teach a beginner piano course, providing personalized weekly lessons. Composed original beginner piano pieces and technique-focused scores to enhance learning, foster musical creativity, and instill best practices in piano technique"
+                "Drew upon 10 years of classical training to design and teach a beginner piano course, providing personalized weekly lessons. Composed original beginner piano pieces and technique-focused scores to enhance learning, foster musical creativity, and instill best practices in piano technique"
             ],
             "date": "2024",
             "location": "DeKalb, IL"
@@ -155,7 +164,7 @@
         {
             "title": "Data Analysis",
             "description": [
-                "Proficient in Excel functions and regression analysis, utilized in various research projects. Experienced in data visualization and basic econometrics in RStudio, skills developed during ECON 492. Also skilled in audio and MIDI data visualization using JavaScript, TouchDesigner, and various programming languages"
+                "Proficient in Excel functions and regression analysis, utilized in various research projects. Experienced in data visualization and basic econometrics in RStudio, skills developed through undergraduate studies. Also skilled in audio and MIDI data visualization using JavaScript, TouchDesigner, and various programming languages"
             ],
             "date": "2020 - Present"
         },
